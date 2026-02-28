@@ -1,0 +1,27 @@
+// Zed keymap
+//
+// For information on binding keys, see the Zed
+// documentation: https://zed.dev/docs/key-bindings
+//
+// To see the default key bindings run `zed: open default keymap`
+// from the command palette.
+[
+  {
+    "context": "Workspace",
+    "bindings": {
+      "F5": ["task::Spawn", { "task_name": "Compile and Run" }],
+    },
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "F6": ["task::Spawn", { "task_name": "Debug" }],
+    },
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "F7": ["task::Spawn", { "task_name": "Uncrustify" }],
+    },
+  },
+]

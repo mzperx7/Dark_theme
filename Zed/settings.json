@@ -1,0 +1,62 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "buffer_line_height": {
+    "custom": 1.5,
+  },
+  "cursor_shape": "block",
+  "cursor_blink": true,
+  "agent_ui_font_size": 18.0,
+  "toolbar": {
+    "agent_review": false,
+    "selections_menu": false,
+    "quick_actions": false,
+    "breadcrumbs": false,
+  },
+  "preview_tabs": {
+    "enabled": true,
+  },
+  "tabs": {
+    "show_close_button": "hover",
+    "git_status": false,
+    "file_icons": false,
+  },
+  "tab_bar": {
+    "show_pinned_tabs_in_separate_row": false,
+    "show_tab_bar_buttons": true,
+    "show_nav_history_buttons": false,
+    "show": true,
+  },
+  "title_bar": {
+    "show_onboarding_banner": true,
+    "show_project_items": true,
+    "show_branch_name": true,
+  },
+  "text_rendering_mode": "subpixel",
+  "buffer_font_family": "osaka_unicode",
+  "buffer_font_weight": 400,
+  "telemetry": {
+    "diagnostics": true,
+    "metrics": false,
+  },
+  "ui_font_size": 18.0,
+  "buffer_font_size": 24.0,
+  "theme": {
+    "mode": "system",
+    "light": "One Light",
+    "dark": "focus_dark",
+  },
+  "scrollbar": {
+    "diagnostics": "warning",
+  },
+  "file_types": {
+    "C": ["C", "H"],
+  },
+  "inline_code_actions": false,
+}
