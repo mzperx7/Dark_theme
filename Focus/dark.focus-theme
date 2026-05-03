@@ -1,4 +1,4 @@
-[23]  # Version number. Do not delete.
+[25]  # Version number. Do not delete.
 
 [colors]
 background0:                            181B26FF
@@ -33,17 +33,17 @@ ui_neutral:                             363C55FF
 ui_warning:                             DA680FFF
 ui_warning_dim:                         DA680FFF
 ui_error:                               8B0000FF
-ui_error_bright:                        A23232FF
+ui_error_bright:                        B95754FF
 ui_success:                             222636FF
 
-region_scope_export:                    222636FF
-region_scope_file:                      222636FF
-region_scope_module:                    222636FF
+region_scope_export:                    181B26FF
+region_scope_file:                      181B26FF
+region_scope_module:                    181B26FF
 region_header:                          181B26FF
-region_success:                         222636FF
+region_success:                         181B26FF
 region_warning:                         DA680FFF
 region_error:                           8B0000FF
-region_heredoc:                         222636FF
+region_heredoc:                         181B26FF
 
 build_panel_background:                 181B26FF
 build_panel_scrollbar:                  2C3145FF
@@ -100,6 +100,6 @@ code_comment_highlight4:                97C4BBFF
 cursor_line_highlight:                  181B26FF
 color_preview_title_bar:                181B26FF
 code_addition:                          97C4BBFF
-code_deletion:                          A23232FF
-region_addition:                        222636FF
-region_deletion:                        222636FF
+code_deletion:                          B95754FF
+region_addition:                        0E1016FF
+region_deletion:                        0E1016FF
